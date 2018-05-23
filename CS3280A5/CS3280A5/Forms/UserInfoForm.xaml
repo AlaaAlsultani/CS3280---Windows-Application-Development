@@ -1,0 +1,27 @@
+﻿<Window x:Name="PlayerDetails" x:Class="CS3280A5.UserInfoForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CS3280A5"
+        mc:Ignorable="d"
+        Title="Player Details" Height="350" Width="525" Icon="../Images/dirtblock.png" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="../Images/minecraft_dirt_wallpaper_by_thedevartist-d3l1qoj.png"/>
+        </Grid.Background>
+
+        <TextBox x:Name="NameEntryBox" HorizontalAlignment="Left" Height="37" Margin="167,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" Style="{StaticResource ResourceKey=MCFont}" FontSize="22" Padding="8,6,0,0" Background="#FF5D483E" Foreground="White" MaxLength="20"/>
+        <Label x:Name="NameEntryLabel" Content="Name :&#xA;" HorizontalAlignment="Left" Margin="61,50,0,0" VerticalAlignment="Top" Style="{StaticResource MCFont}" Height="37" Width="87" FontSize="24" Foreground="White"/>
+        <Label x:Name="AgeEntryLabel" Content="Age :" HorizontalAlignment="Left" Margin="83,149,0,0" VerticalAlignment="Top" Style="{StaticResource ResourceKey=MCFont}" Height="37" Width="65" FontSize="24" Foreground="White"/>
+        <TextBox x:Name="AgeEntryBox" HorizontalAlignment="Left" Height="37" Margin="167,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Style="{StaticResource ResourceKey=MCFont}" FontSize="22" Padding="8,6,0,0" Background="#FF5D483E" Foreground="White" MaxLength="3" PreviewTextInput="AgeEntry_Changed"/>
+        <Image HorizontalAlignment="Left" Height="206" Margin="384,65,0,0" VerticalAlignment="Top" Width="109" Source="../Images/MCSteve.png"/>
+        <Button x:Name="PlayerInfoBtn" HorizontalAlignment="Left" Margin="201,245,0,0" VerticalAlignment="Top" Width="121" Height="34" Style="{StaticResource ButtonStyle}" BorderBrush="#FFABADB3" BorderThickness="1" Background="#FF5D483E" Click="PlayerInfoBtn_Click">
+            <StackPanel Height="24" Width="119" Orientation="Horizontal">
+                <Image Stretch="Uniform" Source="../Images/DiamondPick.png" Width="30" Height="28"/>
+                <TextBlock Text="Submit" Width="88" FontSize="16" Style="{StaticResource MCFont}" Padding="10,4,0,0" Foreground="White"/>
+            </StackPanel>
+        </Button>
+        <Label x:Name="AgeEntryErrLbl" Content="" HorizontalAlignment="Left" Margin="167,191,0,0" VerticalAlignment="Top" Foreground="#FFF53C3C" RenderTransformOrigin="0.506,0.1"/>
+    </Grid>
+</Window>

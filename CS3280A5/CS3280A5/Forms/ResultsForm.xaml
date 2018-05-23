@@ -1,0 +1,32 @@
+﻿<Window x:Name="ResultForm" x:Class="CS3280A5.Forms.ResultsForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CS3280A5.Forms"
+        mc:Ignorable="d"
+        Title="Results" Height="350" Width="525" Icon="../Images/dirtblock.png" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/CS3280A5;component/Images/minecraft_dirt_wallpaper_by_thedevartist-d3l1qoj.png"/>
+        </Grid.Background>
+        <Label x:Name="UserPerformanceLbl" Content="Great Job Username" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" Foreground="White" Style="{StaticResource MCFont}" FontSize="20"/>
+        <Label x:Name="PointLbl" Content="You Got XXXX Points" HorizontalAlignment="Center" Margin="0,89,0,0" VerticalAlignment="Top" Foreground="White" Style="{StaticResource ResourceKey=MCFont}" FontSize="20"/>
+        <ProgressBar x:Name="ScoreProgressBar" HorizontalAlignment="Center" Height="26" Margin="0,134,0,0" VerticalAlignment="Top" Width="355" Background="#3FE6E6E6" Maximum="2800"/>
+        <Image HorizontalAlignment="Left" Height="34" Margin="79,165,0,0" VerticalAlignment="Top" Width="36" Source="/CS3280A5;component/Images/MCWood.png"/>
+        <Image x:Name="IronImage" HorizontalAlignment="Left" Height="34" Margin="157,165,0,0" VerticalAlignment="Top" Width="31" Source="/CS3280A5;component/Images/MCIron.png" RenderTransformOrigin="-0.093,-0.526" Opacity="0.4"/>
+        <Image x:Name="GoldImage" HorizontalAlignment="Left" Height="34" Margin="233,165,0,0" VerticalAlignment="Top" Width="35" Source="/CS3280A5;component/Images/MCGold.png" RenderTransformOrigin="-0.347,-0.351" Opacity="0.4"/>
+        <Image x:Name="EmeraldImage" HorizontalAlignment="Left" Height="34" Margin="300,165,0,0" VerticalAlignment="Top" Width="35" Source="/CS3280A5;component/Images/MCEmerald.png" Opacity="0.4"/>
+        <Image x:Name="DiamondImage" HorizontalAlignment="Left" Height="42" Margin="367,165,0,0" VerticalAlignment="Top" Width="44" Source="/CS3280A5;component/Images/MCDiamond.png" Opacity="0.4" RenderTransformOrigin="0.517,0.668"/>
+        <Button x:Name="MainMenuBtn" HorizontalAlignment="Left" Margin="32,255,0,0" VerticalAlignment="Top" Width="148" Height="45" FontSize="16" Style="{StaticResource ButtonStyle}" Foreground="White" Click="MainMenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/CS3280A5;component/Images/MCButtonTexture.png"/>
+            </Button.Background>
+            <StackPanel Orientation="Horizontal" Width="138" Height="35">
+                <Image Source="/CS3280A5;component/Images/MCDoor.png" Width="45"/>
+                <TextBlock Text="Main Menu" Style="{StaticResource MCFont}" HorizontalAlignment="Right" Width="90" Margin="0,10,12,7"/>
+            </StackPanel>
+        </Button>
+
+    </Grid>
+</Window>
