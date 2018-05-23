@@ -1,0 +1,6 @@
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A1\CS3280A1.2\bin\Debug\CS3280A1.2.exe.config
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A1\CS3280A1.2\bin\Debug\CS3280A1.2.exe
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A1\CS3280A1.2\bin\Debug\CS3280A1.2.pdb
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A1\CS3280A1.2\obj\Debug\CS3280A1.2.csproj.CoreCompileInputs.cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A1\CS3280A1.2\obj\Debug\CS3280A1.2.exe
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A1\CS3280A1.2\obj\Debug\CS3280A1.2.pdb

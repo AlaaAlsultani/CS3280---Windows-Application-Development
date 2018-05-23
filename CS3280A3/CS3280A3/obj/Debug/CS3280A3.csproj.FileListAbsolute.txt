@@ -1,0 +1,10 @@
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A3\CS3280A3\bin\Debug\CS3280A3.exe.config
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A3\CS3280A3\bin\Debug\CS3280A3.exe
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A3\CS3280A3\bin\Debug\CS3280A3.pdb
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A3\CS3280A3\obj\Debug\CS3280A3.csprojResolveAssemblyReference.cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A3\CS3280A3\obj\Debug\CS3280A3.ScoreTracker.resources
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A3\CS3280A3\obj\Debug\CS3280A3.Properties.Resources.resources
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A3\CS3280A3\obj\Debug\CS3280A3.csproj.GenerateResource.Cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A3\CS3280A3\obj\Debug\CS3280A3.csproj.CoreCompileInputs.cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A3\CS3280A3\obj\Debug\CS3280A3.exe
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A3\CS3280A3\obj\Debug\CS3280A3.pdb

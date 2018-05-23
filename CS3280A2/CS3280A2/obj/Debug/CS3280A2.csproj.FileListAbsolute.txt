@@ -1,0 +1,10 @@
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A2\CS3280A2\bin\Debug\CS3280A2.exe.config
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A2\CS3280A2\bin\Debug\CS3280A2.exe
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A2\CS3280A2\bin\Debug\CS3280A2.pdb
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A2\CS3280A2\obj\Debug\CS3280A2.csprojResolveAssemblyReference.cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A2\CS3280A2\obj\Debug\CS3280A2.Properties.Resources.resources
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A2\CS3280A2\obj\Debug\CS3280A2.csproj.GenerateResource.Cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A2\CS3280A2\obj\Debug\CS3280A2.csproj.CoreCompileInputs.cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A2\CS3280A2\obj\Debug\CS3280A2.exe
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A2\CS3280A2\obj\Debug\CS3280A2.pdb
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A2\CS3280A2\obj\Debug\CS3280A2.DiceRollForm.resources
