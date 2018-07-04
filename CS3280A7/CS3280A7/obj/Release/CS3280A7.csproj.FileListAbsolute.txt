@@ -1,0 +1,9 @@
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A7\CS3280A7\bin\Release\CS3280A7.exe.config
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A7\CS3280A7\bin\Release\CS3280A7.exe
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A7\CS3280A7\bin\Release\CS3280A7.pdb
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A7\CS3280A7\obj\Release\CS3280A7.Properties.Resources.resources
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A7\CS3280A7\obj\Release\CS3280A3.ScoreTracker.resources
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A7\CS3280A7\obj\Release\CS3280A7.csproj.GenerateResource.Cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A7\CS3280A7\obj\Release\CS3280A7.csproj.CoreCompileInputs.cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A7\CS3280A7\obj\Release\CS3280A7.exe
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A7\CS3280A7\obj\Release\CS3280A7.pdb

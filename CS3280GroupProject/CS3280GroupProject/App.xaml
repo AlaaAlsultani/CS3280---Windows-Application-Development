@@ -1,0 +1,75 @@
+﻿<Application x:Class="CS3280GroupProject.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CS3280GroupProject"
+             StartupUri="./Main/wndMain.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ExpressionDark.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate x:Key="ListBoxItemTemplate">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Column="0" Grid.Row="0" Text="{Binding Path=_Desc}" FontWeight="Bold" FontSize="16" Foreground="#FF119EFF" Width="Auto"/>
+
+                    <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Horizontal" Margin="0, 5, 0, 0" Width="Auto">
+                        <TextBlock Text="Cost:" Margin="5, 0, 0, 0" FontSize="12" FontWeight="Bold" Foreground="White"/>
+                        <TextBlock Text="{Binding Path=_Cost}" Margin="4, 0, 0, 0" FontSize="12" FontWeight="Bold" Foreground="White"/>
+                    </StackPanel>
+
+                </Grid>
+            </DataTemplate>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+            </Style>
+            <Style TargetType="StackPanel" x:Key="StackPanelActive">
+                <Setter Property="Orientation" Value="Vertical"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Style.Resources>
+                    <Style TargetType="Button" BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
+                        <Setter Property="Margin" Value="2,15,2,15"/>
+                        <Setter Property="Padding" Value="5,0,5,0"/>
+                    </Style>
+                </Style.Resources>
+            </Style>
+            <Style TargetType="StackPanel" x:Key="StackPanelInactive">
+                <Setter Property="Orientation" Value="Horizontal"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="Grid.ColumnSpan" Value="2"/>
+                <Setter Property="Margin" Value="0,126,0,0"/>
+                <Setter Property="Height" Value="56"/>
+                <Style.Resources>
+                    <Style TargetType="Button" BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
+                        <Setter Property="Margin" Value="20,0,20,0"/>
+                        <Setter Property="Width" Value="96"/>
+                        <Setter Property="Padding" Value="5,0,5,0"/>
+                        <Setter Property="FontSize" Value="13"/>
+                    </Style>
+                </Style.Resources>
+            </Style>
+            <Style TargetType="TextBox" x:Key="WhiteTextDisabled" BasedOn="{StaticResource {x:Static ToolBar.TextBoxStyleKey}}">
+                <Setter Property="Foreground" Value="#FFFFFF"/>
+            </Style>
+            <Style x:Key="Stretched" TargetType="ListBoxItem">
+                <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                <Setter Property="BorderBrush" Value="White"/>
+                <Setter Property="Padding" Value="5,0,0,5"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="Margin" Value="0,-1,0,0"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

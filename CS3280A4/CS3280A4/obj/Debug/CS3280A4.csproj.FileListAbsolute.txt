@@ -1,0 +1,10 @@
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A4\CS3280A4\bin\Debug\CS3280A4.exe.config
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A4\CS3280A4\bin\Debug\CS3280A4.exe
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A4\CS3280A4\bin\Debug\CS3280A4.pdb
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A4\CS3280A4\obj\Debug\CS3280A4.csprojResolveAssemblyReference.cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A4\CS3280A4\obj\Debug\CS3280A4.Form1.resources
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A4\CS3280A4\obj\Debug\CS3280A4.Properties.Resources.resources
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A4\CS3280A4\obj\Debug\CS3280A4.csproj.GenerateResource.Cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A4\CS3280A4\obj\Debug\CS3280A4.csproj.CoreCompileInputs.cache
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A4\CS3280A4\obj\Debug\CS3280A4.exe
+C:\Users\justi\Documents\Visual Studio 2017\Projects\CS3280A4\CS3280A4\obj\Debug\CS3280A4.pdb
